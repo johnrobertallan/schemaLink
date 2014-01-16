@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>schemaLink example</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        
+        <h1>schemaLink jQuery Plugin Example</h1>
+        
+        <p itemscope itemtype="schema.org/PostalAddress">
+            <span itemprop="name">Zelen Shoes</span><br />
+            <span itemprop="streetAddress">894 Granville Street</span><br />
+            <span itemprop="addressLocality">Vancouver</span>,
+            <span itemprop="addressRegion">BC</span><br />
+            <span itemprop="postalCode">V6Z 1K3</span>
+            <span itemprop="addressCountry">Canada</span>
+        </p>
+        
+<pre><code>
+&lt;p itemscope itemtype="schema.org/PostalAddress"&gt;
+    &lt;span itemprop="name"&gt;Zelen Shoes&lt;/span&gt;&lt;br /&gt;
+    &lt;span itemprop="streetAddress"&gt;894 Granville Street&lt;/span&gt;&lt;br /&gt;
+    &lt;span itemprop="addressLocality"&gt;Vancouver&lt;/span&gt;,
+    &lt;span itemprop="addressRegion"&gt;BC&lt;/span&gt;&lt;br /&gt;
+    &lt;span itemprop="postalCode"&gt;V6Z 1K3&lt;/span&gt;
+    &lt;span itemprop="addressCountry"&gt;Canada&lt;/span&gt;
+&lt;/p&gt;
+</code></pre>
+	
+        <p><a href="http://schema.org/PostalAddress">schema.org/PostalAddress</a></p>
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/jquery.schemaLink.min.js"></script>
+        <script src="js/example.js"></script>
+    </body>
+</html>
