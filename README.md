@@ -92,10 +92,10 @@ The default functionality is for PostalAddress data and opens a native mapping a
 
     $('[itemtype="schema.org/PostalAddress"]').schemaLink();
 
-### HTML result
+### HTML result (android)
 
     <p itemscope='' itemtype='schema.org/PostalAddress'>
-        <a href='bingmaps:?where=894%20Granville%20Street%20Vancouver%20BC%20V6Z%201K3%20Canada' title='link to more information' class='schemaLink' target='mapLinkWindow'>
+        <a href='geo:0,0?q=894%20Granville%20Street%20Vancouver%20BC%20V6Z%201K3%20Canada' title='link to more information' class='schemaLink' target='mapLinkWindow'>
             <span itemprop='name'>Zelen Shoes</span><br>
             <span itemprop='streetAddress'>894 Granville Street</span><br>
             <span itemprop='addressLocality'>Vancouver</span>,
